@@ -14,9 +14,6 @@ args = parser.parse_args()
 # Set the URL of the login page to the value specified by the -u/--url argument
 login_url = args.url
 
-# Set the URL of the login page
-#login_url = "http://www.example.com/login"
-
 # Set the common admin username and passwords to test, 
 common_admin_usernames = ["name1", "name2"] 
 common_admin_passwords = ["pw1", "pw2", "pw3"]
